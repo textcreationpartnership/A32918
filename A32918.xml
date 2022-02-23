@@ -1,0 +1,595 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Campaign, 1692</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1692</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 13 KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A32918</idno>
+            <idno type="STC">Wing C399A</idno>
+            <idno type="STC">ESTC R29172</idno>
+            <idno type="EEBO-CITATION">10840336</idno>
+            <idno type="OCLC">ocm 10840336</idno>
+            <idno type="VID">46093</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A32918)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 46093)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1418:23)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Campaign, 1692</title>
+               </titleStmt>
+               <extent>8 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London? :</pubPlace>
+                  <date>1692?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Namur (Belgium) --  History --  Siege, 1695 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-02</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2013-02</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="poem">
+            <pb facs="tcp:46093:1"/>
+            <pb n="1" facs="tcp:46093:1"/>
+            <head>The CAMPAIGN 1692.</head>
+            <lg>
+               <l>VVHEN People find their Money ſpent,</l>
+               <l>They <hi>recollect</hi> which <hi>way</hi> it went,</l>
+               <l>The like in order to <hi>prevent</hi>
+               </l>
+               <l>for th' Future.</l>
+            </lg>
+            <lg>
+               <l>That <hi>Money</hi>'s ſpent I need not tell,</l>
+               <l>For what I know not very well,</l>
+               <l>Unleſs to make Folks to Rebel</l>
+               <l>or Tutor.</l>
+            </lg>
+            <lg>
+               <l>But leaſt you think it ſpent in vain,</l>
+               <l>And of our Hero's Acts complain,</l>
+               <l>I will deſcribe this laſt Campaign</l>
+               <l>in <hi>Flanders.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>With <hi>Treaſure, Ships,</hi> and <hi>Arms</hi> good ſtore</l>
+               <l>To make the <hi>French</hi> (as we be) poor,</l>
+               <l>He did embark with many more</l>
+               <l>Commanders.</l>
+            </lg>
+            <lg>
+               <l>While Cares were fighting in his Breaſt,</l>
+               <l>And nothing left (but <hi>Wife</hi>) unpreſt,</l>
+               <l>He took, not ſtaying to be bleſs'd,</l>
+               <l>his Ark Sir.</l>
+            </lg>
+            <lg>
+               <l>Haſtning to make ſome work for Verſe,</l>
+               <l>Fit for dull <hi>Dutchmen</hi> to rehearſe,</l>
+               <l>Where <hi>Wit</hi> and <hi>Courage</hi> are ſo ſcarce;</l>
+               <l>d'ye mark Sir.</l>
+            </lg>
+            <lg>
+               <l>He was no ſooner ſet on ſhore,</l>
+               <l>When News came <hi>Poſt</hi> that <hi>Luxembur'</hi>
+               </l>
+               <l>Had actually beſieged <hi>Namur,</hi>
+               </l>
+               <l>nigh <hi>Liege</hi> Sir.</l>
+            </lg>
+            <lg>
+               <l>This <hi>Action</hi> put him in amaze,</l>
+               <l>Fearing if he ſhould make <hi>delays,</hi>
+               </l>
+               <l>It would be difficult to raiſe</l>
+               <l>the Siege Sir.</l>
+            </lg>
+            <pb n="2" facs="tcp:46093:2"/>
+            <lg>
+               <l>With that he Muſter'd all his Force,</l>
+               <l>Full fourſcore thouſand Foot and Horſe,</l>
+               <l>That never flinch'd or hung an Arſe</l>
+               <l>when fighting.</l>
+            </lg>
+            <lg>
+               <l>And march'd away with Noble Train;</l>
+               <l>But all Endeavours prov'd in vain,</l>
+               <l>There were ſuch Storms of Thunder, Rain,</l>
+               <l>and Lightning.</l>
+            </lg>
+            <lg>
+               <l>The <hi>filthy Seaſon</hi> made him <hi>fret;</hi>
+               </l>
+               <l>Not that he <hi>fear'd</hi> the <hi>French</hi> a bitt;</l>
+               <l>But that it was ſuch <hi>plaguy</hi> wet</l>
+               <l>raw Weather.</l>
+            </lg>
+            <lg>
+               <l>We boldly view'd their <hi>dirty Paſſes,</hi>
+               </l>
+               <l>And <hi>ſtrong Retrenchments</hi> where no <hi>Graſs</hi> is,</l>
+               <l>And ſo retir'd like <hi>driven Aſſes</hi>
+               </l>
+               <l>together</l>
+            </lg>
+            <lg>
+               <l>For not <hi>attempting</hi> once to fight,</l>
+               <l>
+                  <hi>Namur</hi> was <hi>taken</hi> in our ſight,</l>
+               <l>Though from the Town we lay not quite</l>
+               <l>a Mile, Sir.</l>
+            </lg>
+            <lg>
+               <l>The <hi>ſtrength</hi> of <hi>Flanders</hi> ſo was <hi>won,</hi>
+               </l>
+               <l>And <hi>William bravely</hi> ſaw it done,</l>
+               <l>And unconcernedly lookt on</l>
+               <l>the while, Sir.</l>
+            </lg>
+            <lg>
+               <l>The <hi>Dutch,</hi> who better knew the Land,</l>
+               <l>Found it too <hi>ſlippery</hi> to <hi>ſtand,</hi>
+               </l>
+               <l>And therefore would not be <hi>trappann'd,</hi>
+               </l>
+               <l>as we were.</l>
+            </lg>
+            <lg>
+               <l>For ſo to <hi>Fight</hi> at <hi>any rate,</hi>
+               </l>
+               <l>Without <hi>Aſſurance</hi> of their <hi>Fate,</hi>
+               </l>
+               <l>Or a reſpect to <hi>Future State,</hi>
+               </l>
+               <l>is not fair.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Low-Country</hi> Courage thus expreſs't,</l>
+               <l>His <hi>Higneſs</hi> thought it time to <hi>reſt,</hi>
+               </l>
+               <l>And full <hi>three Months</hi> he took at leaſt</l>
+               <l>to do it.</l>
+            </lg>
+            <lg>
+               <l>When ſo <hi>refreſh't</hi> in <hi>haſte</hi> he roſe,</l>
+               <l>And <hi>Swore,</hi> (for 'twas his <hi>turn</hi> t'oppoſe,</l>
+               <l>He'd be <hi>reveng'd,</hi> and make his Foes</l>
+               <l>to rue it.</l>
+            </lg>
+            <pb n="3" facs="tcp:46093:2"/>
+            <lg>
+               <l>To carry on this great <hi>Deſign,</hi>
+               </l>
+               <l>Early one Morning very fine,</l>
+               <l>He did <hi>reſolve</hi> to force their <hi>Line</hi>
+               </l>
+               <l>and Trenches.</l>
+            </lg>
+            <lg>
+               <l>With Swords, and Guns, and Hand-Granadoes,</l>
+               <l>He made his way through <hi>Ambuſcadoes,</hi>
+               </l>
+               <l>And beat down ſome o'th <hi>Paliſadoes</hi>
+               </l>
+               <l>of the <hi>Frenches.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>So there began a <hi>warm diſpute,</hi>
+               </l>
+               <l>The <hi>French</hi> were ſtrong and held him to't;</l>
+               <l>For <hi>Aeſop</hi> order'd all his Foot</l>
+               <l>to draw forth.</l>
+            </lg>
+            <lg>
+               <l>When <hi>Two</hi> Fight, one muſt always beat,</l>
+               <l>'Tis ſaid; but that's a meer <hi>deceit;</hi>
+               </l>
+               <l>For <hi>William</hi> only did <hi>retreat,</hi>
+               </l>
+               <l>and ſo forth.</l>
+            </lg>
+            <lg>
+               <l>He left indeed Six Thouſand Dead,</l>
+               <l>At leaſt they were deſpirited,</l>
+               <l>Twelve hundred, ſome ſay, were Pris'ners made,</l>
+               <l>but I wont.</l>
+            </lg>
+            <lg>
+               <l>The <hi>French</hi> did ſoon decamp we find,</l>
+               <l>As if to Fight no more inclined,</l>
+               <l>Leaving the Lord knows what behind;</l>
+               <l>for I dont.</l>
+            </lg>
+            <lg>
+               <l>What if this great <hi>Attempt</hi> did fail?</l>
+               <l>He had another to prevail,</l>
+               <l>That Monſieur might his Stars bewail</l>
+               <l>with ſorrow.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Louis</hi> in <hi>hopes</hi> was made to <hi>fly,</hi>
+               </l>
+               <l>His <hi>Conqueſts</hi> left to <hi>Will.</hi> to <hi>buy;</hi>
+               </l>
+               <l>To'th <hi>Commonwealth</hi> his <hi>Tyranny</hi>
+               </l>
+               <l>to borrow.</l>
+            </lg>
+            <lg>
+               <l>'Twas a <hi>Deſcent,</hi> you underſtand,</l>
+               <l>On the <hi>French</hi> Coaſts ſome Men to Land,</l>
+               <l>To reſcue Trayters from the hand</l>
+               <l>of <hi>Lewis.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Old Laws of <hi>France</hi> there to <hi>reſtore,</hi>
+               </l>
+               <l>As <hi>England</hi>'s he had done before;</l>
+               <l>But ſome will ha't to <hi>break</hi> 'em more,</l>
+               <l>moſt true is.</l>
+            </lg>
+            <pb n="4" facs="tcp:46093:3"/>
+            <lg>
+               <l>Suppoſe all Kings alike for eaſe,</l>
+               <l>And the <hi>Name</hi> only not to pleaſe,</l>
+               <l>(Old <hi>Things</hi> with us are a Diſeaſe)</l>
+               <l>'twere madneſs;</l>
+            </lg>
+            <lg>
+               <l>While <hi>Lewis</hi>'s Glory does Commence,</l>
+               <l>T'ex change him for a creeping Prince,</l>
+               <l>'Twould be a vile <hi>Affront</hi> to ſenſe,</l>
+               <l>in ſadneſs.</l>
+            </lg>
+            <lg>
+               <l>The <hi>Ladies</hi> would forbid thoſe <hi>Arts,</hi>
+               </l>
+               <l>To give away their King of <hi>Hearts,</hi>
+               </l>
+               <l>For one of leſs performing parts</l>
+               <l>than <hi>le Grand.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>For One that ha'nt to ſhow, God knows,</l>
+               <l>So much to <hi>pleaſe 'em,</hi> as a <hi>Noſe;</hi>
+               </l>
+               <l>Though it may ſerve to ſpight his Foes,</l>
+               <l>how ere't ſtand</l>
+            </lg>
+            <lg>
+               <l>But while our <hi>Champion</hi> was abroad,</l>
+               <l>Mind how he kept the very Road</l>
+               <l>He to his <hi>Cabinet</hi> had ſhow'd</l>
+               <l>and went in.</l>
+            </lg>
+            <lg>
+               <l>To drag our <hi>Landmen</hi> out to <hi>Sea,</hi>
+               </l>
+               <l>To uſe them <hi>ill,</hi> and keep their <hi>Pay,</hi>
+               </l>
+               <l>Strict Orders coming ev'ry Day</l>
+               <l>from <hi>Benting.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>With fifteen thouſand Men, and more,</l>
+               <l>Five hundred Ships to waft them o'er,</l>
+               <l>With ſixty Canons that would roar</l>
+               <l>like Thunder.</l>
+            </lg>
+            <lg>
+               <l>Some fifty Mortars great and ſmall,</l>
+               <l>Bombs, Carcaſſes, the Devil and all,</l>
+               <l>And bloudy <hi>Threats</hi> ſent from <hi>Whitehall,</hi>
+               </l>
+               <l>you'd wonder.</l>
+            </lg>
+            <lg>
+               <l>Spades, Shovels, Pioniers they got,</l>
+               <l>Guns, Swords, ſav'd all ſince <hi>Oates</hi>'s Plot,</l>
+               <l>At <hi>Bilboa</hi> made, if I am not</l>
+               <l>miſtaken;</l>
+            </lg>
+            <lg>
+               <l>Bridles and Sadles not a few,</l>
+               <l>With Harneſſes for Mankind too,</l>
+               <l>To ſhew the <hi>French</hi> what they muſt doe,</l>
+               <l>if taken.</l>
+            </lg>
+            <pb n="5" facs="tcp:46093:3"/>
+            <lg>
+               <l>The forty thouſand Bills from <hi>Spain,</hi>
+               </l>
+               <l>Which ne'er till then ſaw Sun or Rain,</l>
+               <l>But have in Huggar Muggar lain</l>
+               <l>fourteen year;</l>
+            </lg>
+            <lg>
+               <l>The Pilgrims too, ſlie Voluntiers,</l>
+               <l>Expected juſt ſo many years,</l>
+               <l>If you'll believe't t'increaſe <hi>French</hi> Fears,</l>
+               <l>were ſeen there:</l>
+            </lg>
+            <lg>
+               <l>But above all, they were ſupplied</l>
+               <l>With ſix Months powdred Beef beſide,</l>
+               <l>For fear the <hi>French</hi> ſhould not provide</l>
+               <l>enough, Sir.</l>
+            </lg>
+            <lg>
+               <l>And armed with a pious Zeal</l>
+               <l>For holy Kirk, and Commonweal,</l>
+               <l>And Courage true as any Steel,</l>
+               <l>or Buff, Sir.</l>
+            </lg>
+            <lg>
+               <l>This grand Deſign was deeply laid,</l>
+               <l>If it be true that People ſaid,</l>
+               <l>That <hi>Rochell</hi> was to be betraid,</l>
+               <l>or <hi>Dunkirk;</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Though others ſaid they were to go</l>
+               <l>In dusk of Night to St. <hi>Malo,</hi>
+               </l>
+               <l>To burn the Ships, and mall the Foe</l>
+               <l>with Dungfork.</l>
+            </lg>
+            <lg>
+               <l>But ſome a wiſer thing did ſay,</l>
+               <l>'Twas farther off into a Bay,</l>
+               <l>Not far from <hi>Bayonne,</hi> call'd <hi>Biſcay,</hi>
+               </l>
+               <l>nigh <hi>Spaniard.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>To ſtop our Search an Order came</l>
+               <l>That none the deſtin'd Place ſhould name,</l>
+               <l>But he ſhould ſtreight be hang'd for th'ſame</l>
+               <l>at Main yard.</l>
+            </lg>
+            <lg>
+               <l>All thus equipt, Wind ſitting right,</l>
+               <l>They hoiſted Sail with all their Might,</l>
+               <l>And ſafely paſt the Iſle of <hi>Wight</hi>
+               </l>
+               <l>as can be.</l>
+               <l>Strange Hopes and Fears did us poſſeſs,</l>
+               <l>To know what would be the Succeſs,</l>
+               <l>When ſuddenly came an Expreſs</l>
+               <l>to <hi>Danby;</hi>
+               </l>
+            </lg>
+            <pb n="6" facs="tcp:46093:4"/>
+            <lg>
+               <l>Which brought Advice that <hi>Ruſſel,</hi> he</l>
+               <l>With <hi>Leinſters</hi> Duke could not agree;</l>
+               <l>So was our Project utterly</l>
+               <l>defeated.</l>
+            </lg>
+            <lg>
+               <l>To get in Order this Deſcent</l>
+               <l>Four hundred thouſand pounds were ſpent;</l>
+               <l>So you, and not the Government</l>
+               <l>were cheated.</l>
+            </lg>
+            <lg>
+               <l>Thus between <hi>French</hi> that us do <hi>beat,</hi>
+               </l>
+               <l>And <hi>Dutch</hi> that <hi>daily</hi> do us <hi>cheat,</hi>
+               </l>
+               <l>Our <hi>Grief</hi> and <hi>Ruins</hi> muſt be <hi>great,</hi>
+               </l>
+               <l>I fear it.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Iſſachar</hi>'s Arms may <hi>ours</hi> be made,</l>
+               <l>An Aſs between too Burdens laid,</l>
+               <l>To both for being <hi>Jews</hi> betray'd,</l>
+               <l>you'll Swear it.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Namur</hi> we ſaw to <hi>France</hi> ſubmit,</l>
+               <l>At <hi>Steinkirk</hi> fluſht into a Net,</l>
+               <l>And the Deſcent proved beſhit</l>
+               <l>all over.</l>
+            </lg>
+            <lg>
+               <l>His Conqueſts thus at once you view,</l>
+               <l>And how he did his Foes ſubdue;</l>
+               <l>His Triumphs next I will to you</l>
+               <l>diſcover.</l>
+            </lg>
+            <lg>
+               <l>But firſt obſerve how he return'd!</l>
+               <l>Some Paltry Ships that you thought burn'd,</l>
+               <l>And <hi>Bert,</hi> with whom to fight he ſcorn'd,</l>
+               <l>no wonder.</l>
+            </lg>
+            <lg>
+               <l>Met him: But Kings, whoſe Honour lies</l>
+               <l>As his, be not to fight a prize,</l>
+               <l>With Folks concern'd in Robberies</l>
+               <l>and Plunder.</l>
+            </lg>
+            <lg>
+               <l>So to eſcape a Bloody Boot,</l>
+               <l>He did take down his Royal Clout,</l>
+               <l>Or Flagg, on which it did fall out,</l>
+               <l>Gaff. <hi>Momus.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Our King of Bees, then did not fail,</l>
+               <l>Although he wears no ſting in's Tail,</l>
+               <l>And without ſhifting Hive to Sail,</l>
+               <l>ſafe Home to's.</l>
+            </lg>
+            <pb n="7" facs="tcp:46093:4"/>
+            <lg>
+               <l>The Tower Guns were all prepar'd,</l>
+               <l>And Fireworks on Lighters rear'd;</l>
+               <l>But what came on 'em I ne'er heard</l>
+               <l>a <hi>Verbum.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>In Windows moſt Folks ſet up Lights,</l>
+               <l>Excepting ſawcy <hi>Jacobites,</hi>
+               </l>
+               <l>That had their Glazing broke to Rights,</l>
+               <l>to curb 'em.</l>
+            </lg>
+            <lg>
+               <l>Firſt came ſome Guards to clear the way;</l>
+               <l>And next a Squire, with Boots of Hay,</l>
+               <l>And on a Nag moſt miſerably</l>
+               <l>Bejaded.</l>
+            </lg>
+            <lg>
+               <l>Two Men came next, who cring'd and bow'd,</l>
+               <l>And humbly did beſeech the Crowd,</l>
+               <l>To make a Noiſe, and Baul aloud,</l>
+               <l>as they did.</l>
+            </lg>
+            <lg>
+               <l>Then came a Coach, in which there ſate</l>
+               <l>Four Lords, who went, as People prate,</l>
+               <l>His Highneſs to congratulate</l>
+               <l>and flatter.</l>
+            </lg>
+            <lg>
+               <l>Next twenty Mobb, the Chief o'th Town,</l>
+               <l>in Left hand Club, in Right Hand Stone,</l>
+               <l>Thoſe Windows which had Candles none</l>
+               <l>to batter.</l>
+            </lg>
+            <lg>
+               <l>Four Horſes next a Chariot drew,</l>
+               <l>In which of <hi>Dutch</hi>-men there ſate two,</l>
+               <l>Whoſe very looks would make one ſpew,</l>
+               <l>as I did.</l>
+               <l>At laſt the fierce <hi>Life-guards</hi> appear'd,</l>
+               <l>Who at the Candles gap'd and ſtar'd:</l>
+               <l>And thus his Triumphs you have heard</l>
+               <l>deſcribed.</l>
+            </lg>
+            <lg>
+               <l>Now judge if he's ſo fit a Pin</l>
+               <l>For th'wounded Hole that he is in;</l>
+               <l>Or have we cauſe to chuſe again?</l>
+               <l>or no, Sir?</l>
+            </lg>
+            <lg>
+               <l>If we to Slavery are born;</l>
+               <l>Yet 'tis a Caſe that's too forlorn,</l>
+               <l>To ſerve them, that our Servants ſcorn,</l>
+               <l>I trow, Sir.</l>
+            </lg>
+            <pb n="8" facs="tcp:46093:5"/>
+            <lg>
+               <l>But after all it muſt be ſaid,</l>
+               <l>His Conqueſts were not quite ſo bad,</l>
+               <l>But he thoſe Triumphs merited,</l>
+               <l>and more, Sir:</l>
+            </lg>
+            <lg>
+               <l>For ſure no Emperor of <hi>Rome,</hi>
+               </l>
+               <l>Nor <hi>Britiſh</hi> King was, I preſume,</l>
+               <l>With Farthing Candles lighted home</l>
+               <l>before, Sir.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:46093:5"/>
+         </div>
+      </body>
+   </text>
+</TEI>
